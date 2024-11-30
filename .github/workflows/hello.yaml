@@ -11,6 +11,6 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: ls -la
-      - run: mkdir aaaaa/dosenotexists/for/sure
+
 
     
