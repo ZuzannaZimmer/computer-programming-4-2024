@@ -1,0 +1,7 @@
+name: Hello Github Actions
+on: [push]
+jobs:
+  HelloWorld:
+  steps:
+    - run: echo " The job was automaticaly .."
+    - run: "ls -la"
